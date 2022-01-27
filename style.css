@@ -16,10 +16,11 @@ ul{
 .navi ul{
     margin-top: 5px;
     height: 50px;
-    background-color: rgb(59, 57, 57);
+    background-color: #37475A;
     width: 100%;
     margin-left: 0px;
     color: white;
+    margin-bottom: 1px;
 }
 ul li{
     float:left;
@@ -56,7 +57,7 @@ li i {
 .red{
     height: 45px;
     width: 50%;
-    background-color: red;
+    background-color:#37476A;
     float: left;
 }
 .red p{
@@ -68,7 +69,7 @@ li i {
 .blue{
     height: 45px;
     width: 50%;
-    background-color: rgb(148, 9, 241);
+    background-color:#37475A;
     display: inline-block;
 }
 .blue p{
@@ -82,6 +83,7 @@ li i {
 .image{
     height: 100px;
     width: 90%;
+    object-fit: contain;
 }
 .image a img{
     height: 600px;
@@ -91,8 +93,9 @@ li i {
 }
 .Gradient{
     margin-top: 1px;
-    background: rgb(36,0,33);
-    background: linear-gradient(90deg, rgba(36,0,33,1) 0%, rgba(174,236,109,1) 0%, rgba(255,192,0,1) 47%, rgba(246,125,4,1) 64%);
+   background-image:url('https://th.bing.com/th/id/R.d9c8d3e58ae133dda8918651377a8ddf?rik=HsERxBjf3Fl%2fnQ&pid=ImgRaw&r=0');
+   object-fit: contain;
+   color: white;
 }
 .Gradient h1{
     text-align: center;
@@ -107,16 +110,16 @@ li i {
 .box{
     margin-top: 31%;
     float: left;
+    margin-left: 100px;
 }
 .box img{
     height: 500px;
     width: 400px;
-    padding-left: 80px;
     object-fit: contain;
 }
 .box h1{
     text-align: center;
-    padding-left: 90px;
+    padding-left: 10px;
     margin-top:-12%;
     margin-bottom: 30px;
 }
@@ -173,3 +176,97 @@ li i {
     font-weight: bolder;
     font-size: 15px;
 }
+.clock{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -50px;
+    height: 150px;
+    width: 50%;
+    margin-left: 25%;
+    font-size: 10px;
+    font-weight: bolder;
+    color: white;
+    font-family: sans-serif;
+
+}
+table{
+    margin-left: 17%;
+    height: 100px;
+    width: 500px;
+    border-radius: 5px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI2aMBwssp-fBmfaCA9zA7DubwpDoJvKwNOw&usqp=CAU);
+    border-color: white;
+}
+th{
+    font-size: 70px;
+}
+td{
+    text-align: center;
+    font-size: 20px;
+    
+}
+.banner img{
+    width: 95%;
+    padding-left: 37px;
+    height: 600px;
+    object-fit: contain;
+}
+.top{
+    height: 30px;
+    width: 100%;
+    background-color: #37475A;
+    color: white;
+    text-align: center;
+    margin-top: -70px;
+    padding-top: 7px;
+    
+}
+
+.end{
+    background-color: #232F3E;
+    height: 200px;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+
+.footer {
+    width: 72.35%;
+    position: relative;
+    height: 200px;
+    padding-left: 420px;
+  }
+  .footer .col {
+    width: 190px;
+    height: auto;
+    float: left;
+    padding: 0px 20px 20px 20px;
+  }
+  .footer .col h1 {
+    margin-left: 45px;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 17px;
+    padding: 20px 0px 5px 0px;
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    
+  }
+  .footer .col ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  .footer .col ul li {
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+    cursor: pointer;
+    transition: .2s;
+  }
