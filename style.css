@@ -8,15 +8,21 @@ ul{
     
     
 }
+.bn{
+    text-decoration: none;
+    
+}
+
+
 .bn:hover{
-    background-color: rgb(231, 221, 221);
+    background-color: #37475A;
     height: 45px;
     
 }
 .navi ul{
     margin-top: 5px;
     height: 50px;
-    background-color: #37475A;
+    background-color: skyblue;
     width: 100%;
     margin-left: 0px;
     color: white;
@@ -57,7 +63,7 @@ li i {
 .red{
     height: 45px;
     width: 50%;
-    background-color:#37476A;
+    background-color:crimson;
     float: left;
 }
 .red p{
@@ -69,7 +75,7 @@ li i {
 .blue{
     height: 45px;
     width: 50%;
-    background-color:#37475A;
+    background-color: brown;
     display: inline-block;
 }
 .blue p{
@@ -81,32 +87,17 @@ li i {
     padding-top: 7px;
 }
 .image{
-    height: 100px;
-    width: 90%;
-    object-fit: contain;
-}
-.image a img{
-    height: 600px;
-    width: 100%;
-    padding-left: 6%;
+    height: 660px;
+    width: 85%;
+    background-image: url(./img/mark.gif);
     margin-top: 10px;
+    margin-bottom: -450px;
+    margin-left: 120px;
+  
+    background-size: cover;
 }
-.Gradient{
-    margin-top: 1px;
-   background-image:url('https://th.bing.com/th/id/R.d9c8d3e58ae133dda8918651377a8ddf?rik=HsERxBjf3Fl%2fnQ&pid=ImgRaw&r=0');
-   object-fit: contain;
-   color: white;
-}
-.Gradient h1{
-    text-align: center;
-    font-size: 40px;
-    font-family: sans-serif;
-    font-weight: bolder;
-}
-.Gradient p{
-    text-align: center;
-    font-size: 20px;
-}
+
+
 .box{
     margin-top: 31%;
     float: left;
@@ -123,14 +114,11 @@ li i {
     margin-top:-12%;
     margin-bottom: 30px;
 }
-.image{
-    height: 100px;
-    width: 90%;
-}
+
 .image1 a img{
-    height: 250px;
+    height: 350px;
     width: 90%;
-    padding-left: 5%;
+    padding-left: 6%;
     margin-top: 10px;
     object-fit: cover;
     
@@ -270,3 +258,32 @@ a{
     cursor: pointer;
     transition: .2s;
   }
+
+.user li ul.down{ 
+        background: #f2f2f2;
+        display: none;
+        position: absolute;
+        z-index: 1;
+        left: 1260px;
+        width: 170px;
+        height: 123px;
+}
+.user li:hover ul.down{
+    display:block;
+    border-style: solid;
+    border-color: red;
+}
+.user li ul.down li {
+    display: inline-block;
+}
+.down li:hover{
+    background-color: black;
+}
+.user{
+    display: block;
+    position:relative;
+ 
+    
+}
+
+  
