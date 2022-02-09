@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+body{
+    background: url(https://th.bing.com/th/id/R.63e21338d7079ff19c4a713bc5c777f6?rik=QrldjeDDMRwjZA&riu=http%3a%2f%2fcdn.wallpapersafari.com%2f68%2f84%2fyv1mci.jpg&ehk=olfrIuLvw%2fAVZ%2b85%2bdAm0NzN9sKoD8VKE8GD%2bpo4LO8%3d&risl=&pid=ImgRaw&r=0);
+    background-size: contain;
+}
+
+.home{
+    z-index: 1;
+    color: black; 
+    height: 50px;
+    width: 20px;
+    text-align: center;
+    margin-left: 46%;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+
+
+}
+
+.product{
+    z-index: 2;
+    height: 250px;
+    width: 350px;
+    float: left;
+    background-color: black;
+   
+    margin: 20px 12px 10px 12px;
+    
+}
+  
+.main_box{
+    position: relative ;
+    width: 50em;
+    height: 30em;
+    display: flex;
+    align-items: center;
+    border-radius: 1.5em;
+    transition: .5s;
+    margin-bottom: 20px;
+    margin-left: 35%;
+     margin-top: 20px;
+    
+    z-index: 1;
+  
+    
+    
+
+  
+}
+  
+.main_box .circle{
+    position: absolute;
+    top: 3%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5em;
+    overflow: hidden;
+  
+}
+  
+.main_box .circle::before{
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(7.5em at center);
+    transition: .4s;
+}
+  
+h1{
+    margin-right: 1em ;
+}
+  
+.main_box:hover .circle::before{
+    clip-path: circle(30em at center);
+    /* background-image: url(https://st.depositphotos.com/3004689/3752/v/950/depositphotos_37527637-stock-illustration-light-blue-frame-in-the.jpg); */
+    background-size: contain;
+}
+  
+.main_box img{
+    top: 50%;
+    left: 50%;
+    height: 350px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    pointer-events: none;
+    transition: 0.4s;
+    padding-left: 45px;
+    background: transparent;
+    
+}
+.main_box:hover img{
+    left: 60%;
+    top: 16em;
+    height: 15em;
+    
+}
+  
+.main_box .content{
+    position: relative;
+    width: 50%;
+    background: transparent;
+    padding: 1.25em 1.25em 1.25em 2.5em;
+    transition: .5s;
+    opacity: 0;
+    visibility: hidden;
+}
+  
+.main_box:hover .content{
+    left: 10%;
+    opacity: 1;
+    visibility: visible;
+    top: 3%;
+}
+  
+.main_box .content h2{
+    text-transform: uppercase;
+    font-size: 2em;
+    line-height: 1em;
+    font-family: cursive;
+    
+    
+}
+  
+
+  
+.main_box .content a{
+    position: relative;
+    text-decoration: none;
+    color: rgb(111, 205, 243);
+    padding: .6em 1.25em;
+    margin-top: 0.6em;
+    display: inline-block;
+    top: -6px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+      
+}
+
+button{
+    height: 50px;
+    width: 120px;
+    top: 20px;
+    background-color: transparent;
+    
+}
+
+
+ul.menu {
+    display: inline-block;
+    list-style-type: none;
+    z-index: 1;
+    position: fixed;
+    
+   
+   
+}
+li.menu_list {
+    height: 170px;
+    width: 300px;
+    position: relative;
+    margin-right: 90%;
+    margin-top: 10px;
+
+  
+    
+
+}
+li.menu_list .front,
+a.side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 100%;
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .5s ease-out;
+    cursor: pointer;
+    
+}
+li.menu_list .front {
+    background-color: rgb(87, 207, 255);
+    color: whitesmoke;
+    transform-origin: 0 0;
+}
+a.side {
+    background-color: transparent;
+    color: #34465d;
+    transform-origin: 0 0 85px;
+    transform: rotateY(-90deg);
+    font-weight: bolder;
+    font-family: cursive;
+}
+li.menu_list:hover a.side {
+    transform: rotateY(0deg);
+}
+li.menu_list:hover .front {
+    transform: rotateY(90deg);
+}
+
+
+
+
