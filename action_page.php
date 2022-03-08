@@ -24,7 +24,7 @@
                 header('Location:signup.php?errors='.serialize($errors));
            }   
            else{
-               echo "welcome";
+            header('Location:index.php');
            }
 
 ?>

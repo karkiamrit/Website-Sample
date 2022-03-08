@@ -13,9 +13,9 @@
         <div class="main container">
         <div class="navi">
          <ul>
-            <li class="bn">Home</li>
+            <li class="bn"><a href="index.php" style="color: white;">Home</a></li>
             <li class="bn"><a href="products.php" style="color: white;">Products</a></li>
-            <li class="bn" a href="products.php" style="color: white;">Top Deals</li>
+            <li class="bn"><a href="products.php" style="color: white;">Top Deals</a></li>
             <li class="bn"><a href="./signup.php" style="color: white;">Sign up</a></li>
             <li><input type="search" placeholder="Search"/></li>
             <div class="user">

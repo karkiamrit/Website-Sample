@@ -1,17 +1,3 @@
- <?php 
-//   if(isset($_GET['errors'])){
-//     $errors=unserialize($_GET['errors']);
-
-   
-//     echo "<ul>";
-//     foreach ($errors as $error)
-//     {
-//       echo "<li style='color:red; position:absolute;'>$error</li>";
-//     }
-//     echo "</ul>";
-//   }
-// ?>  
-
 <!DOCTYPE html>
 <html>
   <head>

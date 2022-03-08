@@ -20,9 +20,9 @@ ul{
     
 }
 .navi ul{
-    margin-top: 5px;
+    margin-top: 1px;
     height: 50px;
-    background-color: skyblue;
+    background-color: rgb(42, 175, 228);
     width: 100%;
     margin-left: 0px;
     color: white;
