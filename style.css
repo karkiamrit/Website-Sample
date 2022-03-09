@@ -266,7 +266,10 @@ a{
         z-index: 1;
         left: 1260px;
         width: 170px;
-        height: 123px;
+        height: 105px;
+        
+       
+        
 }
 .user li:hover ul.down{
     display:block;
@@ -276,8 +279,9 @@ a{
 .user li ul.down li {
     display: inline-block;
 }
+
 .down li:hover{
-    background-color: black;
+    background-color: rgb(42, 175, 228);
 }
 .user{
     display: block;

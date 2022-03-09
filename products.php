@@ -53,7 +53,7 @@
                     Rs.2000/-
                 </h2>
                 <br>
-                <button><a href="#" name="cart">Go to cart</a></button>
+                <button><a href="cart.php" name="cart">Go to cart</a></button>
             </div>
             <img src="http://cdn.shopify.com/s/files/1/0327/2205/9402/products/Hoodie_zip_2000x_4e70d5c7-0d4b-4571-a77e-60d58b7af525_1200x1200.png?v=1600767010">
         </div>
@@ -64,7 +64,7 @@
                 <br>
                 <h2>Rs.800/-</h2>
                 <br>
-                <button><a href="#">Go to cart</a></button>
+                <button><a href="cart.php">Go to cart</a></button>
             </div>
             <img src="https://i.pinimg.com/originals/3c/d4/d6/3cd4d6fce15694021e9d632b922ae41a.png" >
         </div>
@@ -75,7 +75,7 @@
                 <br>
                 <h2>Rs.1250/-</h2>
                 <br>
-                <button><a href="#">Go to cart</a></button>
+                <button><a href="cart.php">Go to cart</a></button>
             </div>
             <img src="https://static.nike.com/a/images/t_default/ab96d56f-fbe7-45ad-aaf8-2d8dbdf9c004/chelsea-fc-2021-22-stadium-home-mens-soccer-jersey-Fwt9bV.png">
         </div>
@@ -86,7 +86,7 @@
                 <br>
                 <h2>Rs.1500/-</h2>
                 <br>
-                <button><a href="#">Go to cart</a></button>
+                <button><a href="cart.php">Go to cart</a></button>
             </div>
             <img src="https://img.btdmp.com/10219/10219193/products/1629542823439.png">
         </div>
@@ -97,7 +97,7 @@
                 <br>
                 <h2>Rs.1750/-</h2>
                 <br>
-                <button><a href="#">Go to cart</a></button>
+                <button><a href="cart.php">Go to cart</a></button>
             </div>
             <img src="https://msale24.com/wp-content/uploads/2021/10/Fashion-Tattoo-Mens-hoodies-Sons-Of-Vikings-3D-Printed-Hoodie-Harajuku-Streetwear-Pullover-Unisex-Casual-Jacket.png">
         </div>

@@ -22,9 +22,9 @@
             <li>
                 <i class="far fa-user"></i>
                 <ul class="down">
-                    <li><a href="#">Laptops</a></li>
-                    <li><a href="#">Monitors</a></li>
-                    <li><a href="#">Printers</a></li>
+                    <li><a href="products.php">Products</a></li>
+                    <li><a href="products.php">Sale</a></li>
+                    <li><a href="cart.php">Cart</a></li>
 
                 </ul>
             </li>
@@ -34,7 +34,7 @@
             <li><i class="far fa-heart"></i></li>
             </span>
             <span class="bag">
-            <li><i class="fas fa-shopping-bag"></i></li>
+            <li><a href="cart.php" style="color:white;"><i class="fas fa-shopping-bag"></i></a></li>
             </span>
          </ul>  
          </div> 
@@ -53,7 +53,7 @@
         <div class="box">
             <img src="https://www.tshirt-supplier.com/Uploads/5a31f7e1ec310.jpg"><h1>Hoodies</h1>
         </div>
-        <div class="image1"><a href="#"><img src="./img/sale.png"></a>
+        <div class="image1"><a href="products.php"><img src="./img/sale.png"></a>
         </div>
         <div class="pth"><img src="./img/d.jpg"> 
        </div>
@@ -88,24 +88,24 @@
         <div class="footer" style="background-color: #232F3E;">
             <div class="contain">
                 <div class="col">
-                  <h1>Accounts</h1>
+                  <h1>My Account</h1>
                   <ul>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Get in touch</li>
+                    <a href="index.php"><li>Home</li></a>
+                    <a href="products.php"><li>Products</li></a>
+                    
                   </ul>
                 </div>
                 <div class="col">
-                  <h1>Resources</h1>
+                  <h1>Membership</h1>
                   <ul>                                        
-                      <li>Get in Touch</li>
+                      <a href="signup.php"><li>Log In</li><a>
                    
                   </ul>
                 </div>
                 <div class="col">
-                  <h1>Support</h1>
+                  <h1>Shopping</h1>
                   <ul>
-                    <li>Contact us</li>
+                    <a href='cart.php'><li>Your Cart</li><a>
                     
                   </ul>
                 </div>

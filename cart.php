@@ -216,12 +216,12 @@ a.qty:hover {
 
 .btn {
   padding: 10px 30px;
-  border-radius: 0.3em;
   font-size: 1.4em;
   font-weight: bold;
   background: #43ace3;
   color: #fff;
-  box-shadow: 0 3px 0 rgba(59,154,198, 1)
+  border-color:transparent;
+  
 }
 
 .btn:hover {
@@ -295,7 +295,7 @@ a.qty:hover {
           
                   <div class="col col-qty layout-inline">
                    
-                      <input type="number" value="0" min="0" max="20" name="Tiger Hoodie"/>
+                      <input type="number" value="0" min="0" max="20" id="q1" onchange=total() name="Tiger Hoodie"/>
                    
                   </div>
                   
@@ -318,7 +318,7 @@ a.qty:hover {
                   </div>
           
                   <div class="col col-qty  layout-inline">
-                           <input type="number" value="0" min="0" max="20" name="Musical Hoodie"/>
+                           <input type="number" value="0" min="0" max="20" id="q2" onchange=total() name="Musical Hoodie"/>
                    
                   </div>
                   
@@ -344,7 +344,7 @@ a.qty:hover {
           
                   <div class="col col-qty layout-inline">
                    
-                      <input type="number" value="0" min="0" max="20" value="Joker"/>
+                      <input type="number" value="0" min="0" max="20" id="q3" onchange=total() value="Joker"/>
                   
                   </div>
                   
@@ -369,7 +369,7 @@ a.qty:hover {
                     </div>
             
                     <div class="col col-qty layout-inline">
-                        <input type="number" value="0"  min="0" max="20" name="Viking"/>
+                        <input type="number" value="0"  min="0" max="20" id="q4" onchange=total() name="Viking"/>
                  
                     </div>
                     
@@ -394,7 +394,7 @@ a.qty:hover {
             
                     <div class="col col-qty layout-inline">
                     
-                        <input type="number" value="0" min="0" max="20" name="Gaming"/>
+                        <input type="number" value="0" min="0" max="20" id="q5" onchange=total() name="Gaming"/>
     
                     </div>
                     
@@ -420,7 +420,7 @@ a.qty:hover {
             
                     <div class="col col-qty layout-inline">
                    
-                        <input type="number" value="0" min="0" max="20" name="chelsea"/>
+                        <input type="number" value="0" min="0" max="20" id="q6" onchange=total() name="chelsea"/>
                      
                     </div>
                     
@@ -437,25 +437,38 @@ a.qty:hover {
                      <div class="col">
                        <p>Total</p>
                      </div>
-                     <div class="col" id="Total">
-                     <?php
-
-    if($_SERVER['REQUEST_METHOD']=='POST')
-    {
-      
-     
-    } 
-
-
-?>
+                     <div class="col" style="width:50px; margin-right:200px; ">
+                                <input type="text" id="Total" readonly style="background-color:transparent; color:white; border-color:transparent;" >
                      </div>
                    </div>
                  </div>         
             </div>
               
-              <button class="btn btn-update">Update cart</button>
+              <button class="btn btn-update" >Proceed To Checkout</button>
             
           </div>
 </form>
+<script>
+  
+  function total()
+  {
+      var q1=document.getElementById('q1').value;
+      var q2=document.getElementById('q2').value;
+      var q3=document.getElementById('q3').value;
+      var q4=document.getElementById('q4').value;
+      var q5=document.getElementById('q5').value;
+      var q6=document.getElementById('q6').value;
+      var e=q1*1350+q2*2250+q3*900+q4*1950+q5*1650+q6*1350;
+      document.getElementById('Total').value="Rs. "+ e;
+     
+  }
+  
+ 
+  
+
+  </script>
+
+
        
     </body>
+    </html>

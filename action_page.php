@@ -8,7 +8,7 @@
           if(!preg_match('/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/',$username)) 
           {
               $errors['uname']="Invalid Email";
-            
+                
               
           } 
           if(!preg_match('/^[A-Za-z]\w{4,14}$/',$pass)) 
